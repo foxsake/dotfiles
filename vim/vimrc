@@ -1,8 +1,11 @@
+" ##### PATHOGEN
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#infect()
+
 " ##### GENERAL SETTINGS
 syntax on
 filetype plugin indent on
 set encoding=utf-8
-execute pathogen#infect()
 set showmode
 set number
 set linebreak
