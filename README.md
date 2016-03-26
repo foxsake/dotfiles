@@ -10,12 +10,12 @@ git clone https://github.com/foxsake/dotfiles ~/.dotfiles
 
 ### Vim
 
-To install vim on your home directory paste:
+To install vim, paste:
 ```bash
-ln -s .dotfiles/vim/vim .vim 
-ln -s .dotfiles/vim/vimrc .vimrc
+ln -s ~/.dotfiles/vim/vim ~/.vim 
+ln -s ~/.dotfiles/vim/vimrc ~/.vimrc
 ```
-To install vim plugins cd to your dotfiles directory then
+To install vim plugins, cd to your dotfiles directory then
 ```bash
 git submodule init
 git submodule update
@@ -24,9 +24,8 @@ or
 ```bash
 git submodule update --init
 ```
-
 #### Upgrading plugins
-To upgrade a plugin bundle go to the plugin directory and pull
+To upgrade a plugin bundle, go to the plugin directory and pull
 ```bash
 git pull origin master
 ```
@@ -35,9 +34,8 @@ To upgrade all bundled plugins
 git submodule foreach git pull origin master
 ```
 
-### tmux
-
-To install tmux configuration cd to home directory then paste:
+### Tmux
+To install tmux, paste:
 ```bash
 ln -s ~/.dotfiles/tmux/tmux.conf ~/.tmux.conf
 ```
