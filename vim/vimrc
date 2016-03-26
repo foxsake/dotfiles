@@ -1,6 +1,6 @@
 " ##### PATHOGEN
 runtime bundle/vim-pathogen/autoload/pathogen.vim
-call pathogen#infect()
+execute pathogen#infect()
 
 " ##### GENERAL SETTINGS
 syntax on
