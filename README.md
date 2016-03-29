@@ -47,3 +47,11 @@ or inside tmux:
 ```
 :source-file ~/.tmux.conf
 ```
+
+### Bash 
+
+To install Bash, paste:
+```bash
+ln -s ~/.dotfiles/bash/bashrc ~/.bashrc
+ln -s ~/.dotfiles/vim/bash_logout ~/.bash_logout
+```
