@@ -15,6 +15,11 @@ To install vim, paste:
 ln -s ~/.dotfiles/vim/vim ~/.vim 
 ln -s ~/.dotfiles/vim/vimrc ~/.vimrc
 ```
+To add vim plugins,
+```bash
+cd ~/.dotfiles/vim
+git submodule add <plugin address> vim/bundle/<plugin name>
+```
 To install vim plugins, cd to your dotfiles directory then
 ```bash
 git submodule init
