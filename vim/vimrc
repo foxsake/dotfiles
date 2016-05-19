@@ -49,6 +49,9 @@ inoremap jk <ESC>
 " ##### END GENERAL SETTINGS
 
 " ##### UTILITY SETTINGS
+"
+" ##### MatchTagAlways
+let g:mta_use_matchparen_group = 1
 
 " #### NERDTree SETTINGS
 autocmd vimenter * NERDTree

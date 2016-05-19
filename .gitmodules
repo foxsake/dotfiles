@@ -25,3 +25,6 @@
 [submodule "tmux/tmux/plugins/tmux-continuum"]
 	path = tmux/tmux/plugins/tmux-continuum
 	url = https://github.com/tmux-plugins/tmux-continuum.git
+[submodule "vim/vim/bundle/MatchTagAlways"]
+	path = vim/vim/bundle/MatchTagAlways
+	url = https://github.com/Valloric/MatchTagAlways.git
