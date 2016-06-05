@@ -28,3 +28,6 @@
 [submodule "vim/vim/bundle/MatchTagAlways"]
 	path = vim/vim/bundle/MatchTagAlways
 	url = https://github.com/Valloric/MatchTagAlways.git
+[submodule "vim/vim/bundle/vim-emmet"]
+	path = vim/vim/bundle/vim-emmet
+	url = https://github.com/mattn/emmet-vim.git
