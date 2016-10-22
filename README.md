@@ -60,3 +60,11 @@ To install Bash, paste:
 ln -s ~/.dotfiles/bash/bashrc ~/.bashrc
 ln -s ~/.dotfiles/vim/bash_logout ~/.bash_logout
 ```
+
+### Git 
+
+To install Git, paste:
+```bash
+ln -s ~/.dotfiles/git/gitconfig ~/.gitconfig
+ln -s ~/.dotfiles/vim/gitignore_global ~/.gitignore_global
+```
