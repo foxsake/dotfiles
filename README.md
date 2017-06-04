@@ -58,7 +58,7 @@ or inside tmux:
 To install Bash, paste:
 ```bash
 ln -s ~/.dotfiles/bash/bashrc ~/.bashrc
-ln -s ~/.dotfiles/vim/bash_logout ~/.bash_logout
+ln -s ~/.dotfiles/bash/bash_logout ~/.bash_logout
 ```
 
 ### Git 
