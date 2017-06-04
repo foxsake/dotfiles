@@ -35,7 +35,7 @@ To upgrade a plugin bundle, go to the plugin directory and pull
 git pull origin master
 ```
 To upgrade all bundled plugins
-``````bash
+```bash
 git submodule foreach git pull origin master
 ```
 
