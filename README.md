@@ -66,5 +66,5 @@ ln -s ~/.dotfiles/bash/bash_logout ~/.bash_logout
 To install Git, paste:
 ```bash
 ln -s ~/.dotfiles/git/gitconfig ~/.gitconfig
-ln -s ~/.dotfiles/vim/gitignore_global ~/.gitignore_global
+ln -s ~/.dotfiles/git/gitignore_global ~/.gitignore_global
 ```
