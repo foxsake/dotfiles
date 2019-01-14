@@ -10,7 +10,7 @@ git clone https://github.com/foxsake/dotfiles ~/.dotfiles
 
 ### Vim
 
-To install vim, paste:
+To install vim configurations, paste:
 ```bash
 ln -s ~/.dotfiles/vim/vim ~/.vim 
 ln -s ~/.dotfiles/vim/vimrc ~/.vimrc
@@ -40,7 +40,7 @@ git submodule foreach git pull origin master
 ```
 
 ### Tmux
-To install tmux, paste:
+To install tmux configurations, paste:
 ```bash
 ln -s ~/.dotfiles/tmux/tmux.conf ~/.tmux.conf
 ```
@@ -55,7 +55,7 @@ or inside tmux:
 
 ### Bash 
 
-To install Bash, paste:
+To install Bash configurations, paste:
 ```bash
 ln -s ~/.dotfiles/bash/bashrc ~/.bashrc
 ln -s ~/.dotfiles/bash/bash_logout ~/.bash_logout
@@ -63,7 +63,7 @@ ln -s ~/.dotfiles/bash/bash_logout ~/.bash_logout
 
 ### Git 
 
-To install Git, paste:
+To install Git configurations, paste:
 ```bash
 ln -s ~/.dotfiles/git/gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/git/gitignore_global ~/.gitignore_global
